@@ -5,67 +5,63 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/mai.css">
+  <title>Projeto</title>
+
+	<link rel="stylesheet" href="./css/main.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
 
-  <!-- Bootstrap  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style-index.css">
-
-  <!-- Favicon-->
+  <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
-  <title>DevMT</title>
 </head>
 
-<body class="text-center align-items-center">
+<body class="d-flex flex-column min-vh-100 ">
 
-  <section class="vh-100 ">
-    <div class="container py-3 h-100  ">
-      <div class="row d-flex align-items-center  h-100">
-        <div class="col-md-5 col-lg-6 col-xl-6 py-0 ms-3">
-
-          <img class="d-block w-100" src="./img/inicio.png" alt="First slide">
-
-
+  <section class="vh-100 d-flex align-items-center  text-light ">
+    <div class="container py-3 ">
+      <div class="row d-flex align-items-center justify-content-center ">
+        <!-- Imagem -->
+        <div class="col-md-6 col-lg-5 mb-4 mb-md-0">
+          <img class="img-fluid rounded-3" src="./img/inicio.png" alt="Imagem de Início">
         </div>
-        <div
-          class="col-md-6 col-lg-7 col-xl-5 offset-xl-0 ms-0 text-start py-5 px-5 border rounded-5 text-secondary shadow div-border">
-          <form class="text-secondary">
+
+        <!-- Formulário -->
+        <div class=" col-md-8 col-lg-6 col-xl-5 text-center text-md-start py-4 py-md-5 px-5 shadow-sm section-login">
+          <form>
             <!-- Email input -->
-            <div data-mdb-input-init class="form-outline mb-2">
+            <div class="mb-3">
               <input type="email" class="form-control form-control-lg" placeholder="Usuário / E-mail" />
-              <label class="form-label text-white" for="form1Example13" style="font-size: 15px;"></label>
             </div>
 
             <!-- Password input -->
-            <div data-mdb-input-init class="form-outline mb-0">
+            <div class="mb-3">
               <input type="password" class="form-control form-control-lg" placeholder="Senha" />
-              <label class="form-label text-white text-end" for="form1Example23" style="font-size: 15px;"></label>
-            </div>
-            <div class="text-end ">
-              <a href="#">Esqueci a senha</a>
-            </div>
-            <div class="text-center mt-5">
-
-              <a href="view/"> <button type="submit"
-                  class=" button btn btn-primary btn-lg btn-block px-5 my-3 btn.zoom">Acessar</button></a>
             </div>
 
+            <!-- Forgot password link -->
+            <div class="text-end mb-3">
+              <a href="#" class="text-primary">Esqueci a senha</a>
+            </div>
+
+            <!-- Submit button -->
+            <div class="text-center">
+              <a href="./View/home.php" target="_self" rel="noopener noreferrer"><button type="submit" class="btn btn-primary btn-lg w-100">Acessar</button></a>
+            </div>
           </form>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Bootstrap JS, Popper.js, and jQuery (opcional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 </body>
-
-
-
 
 </html>
