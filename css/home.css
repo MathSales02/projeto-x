@@ -1,0 +1,78 @@
+.border-div{
+  border: 4px  solid #FFFF;
+  border-radius: 50px;
+  color: black;
+
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color:  #4c5c7d;
+  width: 100%;
+
+
+}
+.footer{
+
+  background: linear-gradient(to bottom, #4c5c7d, #697691);
+  border: none;
+
+}
+
+i{
+  color: bisque;
+  text-decoration: none;
+}
+.icon-container {
+  transition: transform 0.3s ease;
+  padding: 1rem;
+}
+
+.icon-container:hover a {
+  transform: scale(2.0); /* Aumenta o ícone em 1.5 vezes */
+  text-decoration: none;
+  
+}
+.icon-container:hover div {
+  transform: scale(2.0); /* Aumenta o ícone em 1.5 vezes */
+}
+.border-div:hover{
+ border: 10px;
+ color: black;
+ 
+}
+.icon-container p {
+  font-size: 0px;
+  opacity: 0px;
+}
+.icon-container p:hover {
+  font-size: 10px;
+  opacity: 1px;
+  font-family:;
+}
+
+
+.icon-container p {
+  font-size: 0;
+  opacity: 0;
+  transition: font-size 0.3s ease, opacity 0.3s ease;
+  color: bisque;
+  
+}
+
+
+
+.icon-container:hover p {
+  padding: 0;
+  margin-top: 0;
+  font-size: 1rem;
+  opacity: 1;
+  padding: 0px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+
+
+}
