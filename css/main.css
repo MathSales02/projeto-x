@@ -1,40 +1,25 @@
-
-
 body {
+    width: 99%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #e4e4e4;
+    background-color: #a33838;
   }
-  
-  .form-signin {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-  }
+.section-login{
+ background-color: #7787a7;
+ border: 1rem;
+ border-radius: 2rem;
+ box-shadow: 10px 5px 10px black;
+ padding: 200px;
 
-  .form-signin .form-control {
-    position: relative;
-    box-sizing: border-box;
-    height: auto;
-    padding: 10px;
-    font-size: 16px;
-  }
-  .form-signin .form-control:focus {
-    z-index: 2;
-  }
-  .form-signin input[type="email"] {
-    margin-bottom: -1px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-  }
-  .form-signin input[type="password"] {
-    margin-bottom: 10px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
- 
+}
+.section-login a{
+    text-decoration: none;
+
+}
+.section-login a:hover{
+    transform: scale(2.0); /* Aumenta o ícone em 1.5 vezes */
+}
